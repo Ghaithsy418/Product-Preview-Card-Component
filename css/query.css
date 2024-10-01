@@ -1,0 +1,44 @@
+@media(max-width:43.4rem){
+
+    body{
+        margin-top: 8rem;
+    }
+
+    main{
+        flex-direction: column;   
+        width: 18rem;
+    }
+
+    .product-image{
+        content: url(../images/image-product-mobile.jpg);
+        width: 18rem;
+        height: 15rem;
+    }
+
+    .right-side{
+        width: 18rem;
+    }
+
+    h1{
+        font-size: 0.6rem;
+        margin-bottom: 0.6rem;
+    }
+
+    .price-after-sale, h2{
+        font-size: 1.4rem;
+    }
+
+    h2{
+        margin-bottom: 0.8rem;
+    }
+
+    .main-text{
+        font-size: 0.6rem;
+        margin-bottom: 1rem;
+    }
+
+    .prices{
+        gap: 0.8rem;
+        margin-bottom: 1rem;
+    }
+}

@@ -1,0 +1,115 @@
+:root{
+    --color-dark-cyan: hsl(158,36%,37%);
+    --color-cream: hsl(30,38%,92%);
+    --color-very-dark-blue: hsl(212,21%,14%);
+    --color-dark-grayish-blue: hsl(228,12%,48%);
+    --color-white: hsl(0,0%,100%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat",sans-serif;
+    cursor: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="%23FFF" stroke="%23000" stroke-width="2" d="M5.5 3.21V20.8c0 .45.54.67.85.35l4.86-4.86a.5.5 0 0 1 .35-.15h6.87a.5.5 0 0 0 .35-.85L6.35 2.85a.5.5 0 0 0-.85.35Z"></path></svg>'),auto;
+
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 10rem;
+    background-color: var(--color-cream);
+}
+
+main{
+    width: 36rem;
+    display: flex;
+    background-color: var(--color-white);
+    border-radius: 12px;
+    overflow: hidden;
+    min-height: 27rem;
+}
+
+.product-image{
+    height: 28rem;
+    width: 18rem;
+}
+
+.right-side{
+    padding: 1.6rem;
+    width: 18rem;
+}
+
+h1{
+    font-size: 0.7rem;
+    color: var(--color-dark-grayish-blue);
+    font-weight: 500;
+    letter-spacing: 4px;
+    margin-bottom: 0.8rem;
+}
+
+.price-after-sale, h2{
+    font-size: 2rem;
+    font-family: "Fraunces",sans-serif; 
+}
+
+
+h2{
+    color: var(--color-very-dark-blue);
+    margin-bottom: 1rem;
+    line-height: 32px;
+}
+
+.main-text{
+    font-size: 0.875rem;
+    color: var(--color-dark-grayish-blue);
+    line-height: 22px;
+    font-weight: 500;
+    margin-bottom: 1.4rem;
+}
+
+.prices{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 2.4rem;
+}
+
+.price-after-sale{
+    color:var(--color-dark-cyan);
+    font-weight: 700;
+}
+
+.price-before-sale{
+    color: var(--color-dark-grayish-blue);
+    font-weight: 500;
+    font-size: 0.75rem;
+    text-decoration: line-through;
+}
+
+.btn:link,.btn:visited{
+    padding: 0.9rem;
+    background-color: var(--color-dark-cyan);
+    text-decoration: none;
+    color: var(--color-white);
+    font-size: 0.875rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.8rem;
+    border-radius: 6px;
+    transition: all 0.3s;
+    cursor: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="%23FFF" stroke="%23000" stroke-width="2" stroke-linejoin="round" d="M10 11V8.99c0-.88.59-1.64 1.44-1.86h.05A1.99 1.99 0 0 1 14 9.05V12v-2c0-.88.6-1.65 1.46-1.87h.05A1.98 1.98 0 0 1 18 10.06V13v-1.94a2 2 0 0 1 1.51-1.94h0A2 2 0 0 1 22 11.06V14c0 .6-.08 1.27-.21 1.97a7.96 7.96 0 0 1-7.55 6.48 54.98 54.98 0 0 1-4.48 0 7.96 7.96 0 0 1-7.55-6.48C2.08 15.27 2 14.59 2 14v-1.49c0-1.11.9-2.01 2.01-2.01h0a2 2 0 0 1 2.01 2.03l-.01.97v-10c0-1.1.9-2 2-2h0a2 2 0 0 1 2 2V11Z"></path></svg>'),pointer;
+}
+
+.btn:active,.btn:hover{
+    background-color: hsl(156, 47%, 19%);
+}
+
+svg{
+    width: 0.9rem;
+    height: 1rem;
+}
